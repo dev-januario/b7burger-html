@@ -21,3 +21,33 @@ body {
     max-width: 1200px;
     padding: 0 20px;
 }
+
+.logo a {
+    font-family: 'Calistoga';
+    font-size: 36px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #FE6A0F;
+}
+
+/* Header */
+header .container {
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+    gap: 50px;
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+header nav .leftside {
+    display: flex;
+    flex: 1;
+}
